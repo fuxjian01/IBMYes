@@ -25,6 +25,9 @@ fork [https://github.com/CCChieh/IBMYes](https://github.com/CCChieh/IBMYes)
 * 点击 创建Worker
 * 在脚本位置加入下面这段, `url.hostname`修改为对应的 应用程序域名.
 ```
+
+
+
 addEventListener(
   "fetch",event => {
     let url=new URL(event.request.url);
